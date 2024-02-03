@@ -1,0 +1,42 @@
+.chat {
+    border: 1px solid black;
+}
+
+.chat > h1{
+    padding: 0 10px;
+}
+
+.chat-box {
+    height: 30px;
+    position: relative;
+}
+
+.chatbottom {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+input, button {
+    padding: 5px 10px;
+}
+
+button{
+    background-color: green;
+}
+
+input {
+    flex-grow: 1;
+}
+
+.message-box{
+    padding: 10px;
+    height: 250px;
+    overflow: auto;
+}
+
+.textRight{
+    text-align: right;
+}
